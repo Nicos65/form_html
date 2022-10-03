@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TP3 HTML</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Info personelles :</legend>
+            <div>
+                <label for="input1" class="label-c label2">Prenom :</label>
+                <input type="text" name="surname" value="Ex : Nicolas" id="input1">
+            </div>
+            <div>
+                <label for="input2">Nom :</label>
+                <input type="text" name="name" value="Ex : DUBROCA" id="input2">
+            </div>
+            <div>
+                <label for="input">Email :</label>
+                <input type="email" name="email" value="EX : dhshjsfj@gmail.com" id="input"">
+                </div>
+                <div>
+                    <label for=" input'">Numero :</label>
+                <input type="text" name="num" value="EX : 09.59.87.34.54" id="input4">
+            </div>
+            <div>
+                <label for="input5">Mod de passe :</label>
+                <input type="password" name="mdp" value="EX : hjcsjdcbh" id="input5">
+            </div>
+            <div>
+                <label for="input6">Age :</label>
+                <input type="text" name="age" value="EX : 67" id="input6">
+            </div>
+            <div>
+                <label for="input7">Laissez un commentaire :</label>
+                <textarea spellcheck="true" name="message" id="input7">EX : je suis un commentaire</textarea>
+            </div>
+            <div>
+                <label for="input8">Date de mon commentaire :</label>
+                <input type="date" name="date" id="input8">
+            </div>
+            <div>
+                <label for="input9">Ma photo :</label>
+                <input type="file" name="file" id="input9">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>vous preferez :
+            </legend>
+            <div>
+                <input type="checkbox" name="checkbox1" id="input10">
+                <label for="input10">Le HTML</label>
+            </div>
+            <div>
+                <input type="checkbox" name="checkbox2" id="input11">
+                <label for="input11">Le CSS</label>
+            </div>
+            <div>
+                <input type="checkbox" name="checkbox3" id="input12">
+                <label for="input12">Le Javascript</label>
+            </div>
+            <div>
+                <input type="checkbox" name="checkbox4" id="input13">
+                <label for="input13">Ne rien faire</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>vous vous levez /
+            </legend>
+            <input type="radio" id="radio1" name="r1" value="radio1" id="input14" /><label for="radio1">Le matin</label>
+            <br />
+            <input type="radio" id="radio2" name="r2" value="radio2" id="input15" /><label for="radio2">Le midi</label>
+            <br />
+            <input type="radio" id="radio3" name="r3" value="radio1" id="input16" /><label for="radio1">Le soir</label>
+            <br />
+            <input type="radio" id="radio4" name="r4" value="radio2" id="input17" /><label for="radio2">En
+                retard</label>
+        </fieldset>
+        <fieldset>
+            <legend>fin du formulaire
+            </legend>
+            <label for="select">Vous en avez assez?</label>
+            <select name="select" id="select">
+                <option value="0"></option>
+                <option value="1">J'en veux plus</option>
+                <option value="2">C'est super!</option>
+                <option value="3">J'en ai marre</option>
+                <option value="4">Pitié!</option>
+            </select>
+            <input type="submit" id="input18" value="Envoyer">
+            <input type="submit" id="input19" value="Reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>
